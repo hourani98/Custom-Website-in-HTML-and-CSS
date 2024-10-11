@@ -1,0 +1,199 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: gray;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10000;
+}
+.logo {
+  color: #ddd;
+  font-size: 20px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 15px 15px 10px;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+}
+.menu li {
+  margin: 0 10px;
+}
+.menu li a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #ddd;
+  font-size: 20px;
+}
+/**/
+.home {
+  height: calc(100vh - 64px);
+  background-image: url("images/home-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home-content {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  color: #ddd;
+  text-align: center;
+}
+.home-content h1 {
+  font-size: 60px;
+  margin-bottom: 15px;
+}
+.home-content p {
+  font-size: 20px;
+}
+.btn {
+  padding: 15px 25px 15px 25px;
+  margin-top: 30px;
+  border: none;
+  border-radius: 15px;
+  transition: 0.5s all ease-in-out;
+  cursor: pointer;
+}
+.btn:hover {
+  border: 1px solid white;
+  color: #ddd;
+  background-color: transparent;
+}
+/*Ende Home*/
+/*All Title the Section*/
+.title {
+  text-align: center;
+}
+.title h2 {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+.title p {
+  font-size: 20px;
+}
+/*All Title the Section*/
+.services {
+  background-color: rgb(211, 211, 211);
+  padding: 30px 2px 30px 30px;
+}
+.col {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto auto;
+  grid-gap: 20px;
+  padding: 20px;
+}
+.col-1 {
+  width: 400px;
+  height: 200px;
+  background-color: white;
+  padding: 15px;
+  text-align: center;
+}
+.col-1 img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+/**/
+/**/
+.portfolio {
+  background-color: rgb(211, 211, 211);
+  padding: 30px 2px 30px 30px;
+}
+.boxes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto auto;
+  gap: 20px;
+  padding: 20px;
+}
+.box {
+  width: 400px;
+  background-color: white;
+  border-radius: 20px;
+  text-align: center;
+}
+.box img {
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.box h2,
+p {
+  padding: 15px;
+}
+/**/
+/*About-Us*/
+.about-us {
+  background-color: rgb(211, 211, 211);
+  padding: 30px 2px 30px 30px;
+}
+.pad {
+  padding: 30px 2px 30px 30px;
+}
+/*About-us*/
+/*Contact Us*/
+.contact-us {
+  background-color: rgb(211, 211, 211);
+  padding: 30px 2px 30px 30px;
+}
+.icon {
+  display: flex;
+  padding-bottom: 10px;
+}
+.icon p {
+  padding: 0px 15px 0px 15px;
+}
+/**/
+.all-content {
+  display: flex;
+  gap: 80px;
+  padding: 30px 2px 30px 30px;
+}
+.right {
+  display: grid;
+  grid-template-columns: repeat(1, 3fr);
+  gap: 20px;
+  position: relative;
+  left: 20%;
+}
+.icon {
+  padding-bottom: 10px;
+}
+#put {
+  width: 400px;
+  padding: 15px;
+}
+.btn-2 {
+  width: 200px;
+  padding: 12px;
+  background-color: gray;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s all ease-in-out;
+}
+.btn-2:hover {
+  background-color: rgb(182, 180, 180);
+}
+/*Footer*/
+footer {
+  background-color: black;
+  padding: 30px 2px 0px 30px;
+  color: white;
+  font-size: 20px;
+}
